@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendario Financeiro Felipe//PT-BR//juros-v1.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:💰 Taxa de Juros (FED + Copom)
+X-WR-TIMEZONE:America/Sao_Paulo
+
+BEGIN:VEVENT
+UID:fomc-20240131@calfinance
+DTSTAMP:20240131T000000Z
+DTSTART;VALUE=DATE:20240131
+DTEND;VALUE=DATE:20240201
+SUMMARY:FED — Decisão de juros
+DESCRIPTION:PASSADO\nTaxa divulgada: 5.25%–5.50%\nMédia 12 meses: TBD\nVs esperado: dentro do esperado\nPerspectiva: Manutenção sinalizada por mais tempo.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fomc-20250319@calfinance
+DTSTAMP:20250319T000000Z
+DTSTART:20250319T180000Z
+DTEND:20250319T183000Z
+SUMMARY:FED — Decisão de juros (14:00 NY)
+DESCRIPTION:FUTURO\nHorário: 14:00 (NY) — durante pregão\nPerspectiva do mercado: Corte de 25 bps amplamente esperado.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:copom-20240131@calfinance
+DTSTAMP:20240131T000000Z
+DTSTART;VALUE=DATE:20240131
+DTEND;VALUE=DATE:20240201
+SUMMARY:Copom — Decisão de juros (Selic)
+DESCRIPTION:PASSADO\nTaxa divulgada: 11.25%\nMédia 12 meses: TBD\nVs esperado: dentro do esperado\nPerspectiva: Continuidade do ciclo de cortes.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:copom-20250319@calfinance
+DTSTAMP:20250319T000000Z
+DTSTART:20250319T213000Z
+DTEND:20250319T220000Z
+SUMMARY:Copom — Decisão de juros (após fechamento)
+DESCRIPTION:FUTURO\nHorário: após fechamento (B3)\nPerspectiva do mercado: Corte de 50 bps esperado.
+END:VEVENT
+
+END:VCALENDAR
