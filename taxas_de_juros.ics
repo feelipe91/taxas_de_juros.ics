@@ -1,45 +1,297 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Calendario Taxa de Juros//PT-BR//v3.0
+PRODID:-//Calendario Taxa de Juros//PT-BR//v4.0
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Taxa de Juros (FED + COPOM)
 X-WR-TIMEZONE:America/Sao_Paulo
 
 BEGIN:VEVENT
-UID:copom-20260128@juros
-DTSTAMP:20260128T000000Z
-DTSTART;VALUE=DATE:20260128
-DTEND;VALUE=DATE:20260129
-SUMMARY:COPOM - Decisao da Selic (apos fechamento)
-DESCRIPTION:taxa divulgada: 15,00% a.a.\nexpectativa: dentro do esperado\nmédia últimos 12 meses: 14,75% a.a.\nperspectivas: mercado avalia cortes graduais ao longo do ano
+UID:fed-rate-20250129@juros
+DTSTAMP:20260130T215631Z
+DTSTART:20250129T160000
+DTEND:20250129T163000
+SUMMARY:🇺🇸 FED - Decisão de juros (16:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
 END:VEVENT
 
 BEGIN:VEVENT
-UID:copom-20260318@juros
-DTSTAMP:20260318T000000Z
-DTSTART;VALUE=DATE:20260318
-DTEND;VALUE=DATE:20260319
-SUMMARY:COPOM - Decisao da Selic (apos fechamento)
-DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: manutencao da taxa\nmédia últimos 12 meses: 14,60% a.a.\nperspectivas: foco em inflacao e atividade economica
+UID:fed-rate-20250319@juros
+DTSTAMP:20260130T215631Z
+DTSTART:20250319T150000
+DTEND:20250319T153000
+SUMMARY:🇺🇸 FED - Decisão de juros (15:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
 END:VEVENT
 
 BEGIN:VEVENT
-UID:fed-20260128@juros
-DTSTAMP:20260128T190000Z
-DTSTART:20260128T190000
-DTEND:20260128T193000
-SUMMARY:FED - Decisao de juros (16:00 BRT)
-DESCRIPTION:taxa divulgada: 5,50% a.a.\nexpectativa: dentro do esperado\nmédia últimos 12 meses: 5,45% a.a.\nperspectivas: mercado precifica primeiro corte no segundo semestre
+UID:fed-rate-20250507@juros
+DTSTAMP:20260130T215631Z
+DTSTART:20250507T150000
+DTEND:20250507T153000
+SUMMARY:🇺🇸 FED - Decisão de juros (15:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
 END:VEVENT
 
 BEGIN:VEVENT
-UID:fed-20260318@juros
-DTSTAMP:20260318T150000Z
+UID:fed-rate-20250618@juros
+DTSTAMP:20260130T215631Z
+DTSTART:20250618T150000
+DTEND:20250618T153000
+SUMMARY:🇺🇸 FED - Decisão de juros (15:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fed-rate-20250730@juros
+DTSTAMP:20260130T215631Z
+DTSTART:20250730T150000
+DTEND:20250730T153000
+SUMMARY:🇺🇸 FED - Decisão de juros (15:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fed-rate-20250917@juros
+DTSTAMP:20260130T215631Z
+DTSTART:20250917T150000
+DTEND:20250917T153000
+SUMMARY:🇺🇸 FED - Decisão de juros (15:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fed-rate-20251029@juros
+DTSTAMP:20260130T215631Z
+DTSTART:20251029T150000
+DTEND:20251029T153000
+SUMMARY:🇺🇸 FED - Decisão de juros (15:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fed-rate-20251210@juros
+DTSTAMP:20260130T215631Z
+DTSTART:20251210T160000
+DTEND:20251210T163000
+SUMMARY:🇺🇸 FED - Decisão de juros (16:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fed-rate-20260128@juros
+DTSTAMP:20260130T215631Z
+DTSTART:20260128T160000
+DTEND:20260128T163000
+SUMMARY:🇺🇸 FED - Decisão de juros (16:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fed-rate-20260318@juros
+DTSTAMP:20260130T215631Z
 DTSTART:20260318T150000
 DTEND:20260318T153000
-SUMMARY:FED - Decisao de juros (15:00 BRT)
-DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: manutencao da taxa\nmédia últimos 12 meses: 5,40% a.a.\nperspectivas: dados de inflacao seguirao determinantes
+SUMMARY:🇺🇸 FED - Decisão de juros (15:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fed-rate-20260429@juros
+DTSTAMP:20260130T215631Z
+DTSTART:20260429T150000
+DTEND:20260429T153000
+SUMMARY:🇺🇸 FED - Decisão de juros (15:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fed-rate-20260617@juros
+DTSTAMP:20260130T215631Z
+DTSTART:20260617T150000
+DTEND:20260617T153000
+SUMMARY:🇺🇸 FED - Decisão de juros (15:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fed-rate-20260729@juros
+DTSTAMP:20260130T215631Z
+DTSTART:20260729T150000
+DTEND:20260729T153000
+SUMMARY:🇺🇸 FED - Decisão de juros (15:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fed-rate-20260916@juros
+DTSTAMP:20260130T215631Z
+DTSTART:20260916T150000
+DTEND:20260916T153000
+SUMMARY:🇺🇸 FED - Decisão de juros (15:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fed-rate-20261028@juros
+DTSTAMP:20260130T215631Z
+DTSTART:20261028T150000
+DTEND:20261028T153000
+SUMMARY:🇺🇸 FED - Decisão de juros (15:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fed-rate-20261209@juros
+DTSTAMP:20260130T215631Z
+DTSTART:20261209T160000
+DTEND:20261209T163000
+SUMMARY:🇺🇸 FED - Decisão de juros (16:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:copom-rate-20250129@juros
+DTSTAMP:20260130T215631Z
+DTSTART;VALUE=DATE:20250129
+DTEND;VALUE=DATE:20250130
+SUMMARY:🇧🇷 COPOM - Decisão da Selic (após fechamento)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:copom-rate-20250319@juros
+DTSTAMP:20260130T215631Z
+DTSTART;VALUE=DATE:20250319
+DTEND;VALUE=DATE:20250320
+SUMMARY:🇧🇷 COPOM - Decisão da Selic (após fechamento)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:copom-rate-20250507@juros
+DTSTAMP:20260130T215631Z
+DTSTART;VALUE=DATE:20250507
+DTEND;VALUE=DATE:20250508
+SUMMARY:🇧🇷 COPOM - Decisão da Selic (após fechamento)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:copom-rate-20250618@juros
+DTSTAMP:20260130T215631Z
+DTSTART;VALUE=DATE:20250618
+DTEND;VALUE=DATE:20250619
+SUMMARY:🇧🇷 COPOM - Decisão da Selic (após fechamento)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:copom-rate-20250730@juros
+DTSTAMP:20260130T215631Z
+DTSTART;VALUE=DATE:20250730
+DTEND;VALUE=DATE:20250731
+SUMMARY:🇧🇷 COPOM - Decisão da Selic (após fechamento)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:copom-rate-20250917@juros
+DTSTAMP:20260130T215631Z
+DTSTART;VALUE=DATE:20250917
+DTEND;VALUE=DATE:20250918
+SUMMARY:🇧🇷 COPOM - Decisão da Selic (após fechamento)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:copom-rate-20251105@juros
+DTSTAMP:20260130T215631Z
+DTSTART;VALUE=DATE:20251105
+DTEND;VALUE=DATE:20251106
+SUMMARY:🇧🇷 COPOM - Decisão da Selic (após fechamento)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:copom-rate-20251210@juros
+DTSTAMP:20260130T215631Z
+DTSTART;VALUE=DATE:20251210
+DTEND;VALUE=DATE:20251211
+SUMMARY:🇧🇷 COPOM - Decisão da Selic (após fechamento)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:copom-rate-20260128@juros
+DTSTAMP:20260130T215631Z
+DTSTART;VALUE=DATE:20260128
+DTEND;VALUE=DATE:20260129
+SUMMARY:🇧🇷 COPOM - Decisão da Selic (após fechamento)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:copom-rate-20260318@juros
+DTSTAMP:20260130T215631Z
+DTSTART;VALUE=DATE:20260318
+DTEND;VALUE=DATE:20260319
+SUMMARY:🇧🇷 COPOM - Decisão da Selic (após fechamento)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:copom-rate-20260429@juros
+DTSTAMP:20260130T215631Z
+DTSTART;VALUE=DATE:20260429
+DTEND;VALUE=DATE:20260430
+SUMMARY:🇧🇷 COPOM - Decisão da Selic (após fechamento)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:copom-rate-20260617@juros
+DTSTAMP:20260130T215631Z
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260618
+SUMMARY:🇧🇷 COPOM - Decisão da Selic (após fechamento)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:copom-rate-20260805@juros
+DTSTAMP:20260130T215631Z
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+SUMMARY:🇧🇷 COPOM - Decisão da Selic (após fechamento)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:copom-rate-20260916@juros
+DTSTAMP:20260130T215631Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:🇧🇷 COPOM - Decisão da Selic (após fechamento)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:copom-rate-20261104@juros
+DTSTAMP:20260130T215631Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:🇧🇷 COPOM - Decisão da Selic (após fechamento)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:copom-rate-20261209@juros
+DTSTAMP:20260130T215631Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:🇧🇷 COPOM - Decisão da Selic (após fechamento)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: a definir (mercado)\nmédia últimos 12 meses: a calcular\nperspectivas: a definir (mercado)
 END:VEVENT
 
 END:VCALENDAR
