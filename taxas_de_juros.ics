@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Calendario Taxa de Juros//PT-BR//v1.0
+PRODID:-//Calendario Taxa de Juros//PT-BR//v2.0
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:📈 Taxa de Juros (FED + COPOM)
@@ -9,30 +9,28 @@ X-WR-TIMEZONE:America/Sao_Paulo
 BEGIN:VEVENT
 UID:fed-rate-20260128@juros
 DTSTAMP:20260130T000000Z
-DTSTART:20260128T210000Z
-DTEND:20260128T213000Z
-SUMMARY:🇺🇸 FED — Decisão de juros (14:00 ET)
-DESCRIPTION:DECISÃO (PASSADO)\nTaxa divulgada: 3,50%–3,75% (alvo)\nMédia 12m: A PREENCHER\nSurpresa vs esperado: dentro do esperado\nPerspectiva: A PREENCHER\n\nFonte (decisão): comunicado do FOMC / cobertura de mercado.
-LAST-MODIFIED:20260130T000000Z
+DTSTART:20260128T190000
+DTEND:20260128T193000
+SUMMARY:🇺🇸 FED — Decisão de juros (16:00 BRT)
+DESCRIPTION:taxa divulgada: A PREENCHER\nexpectativa: A PREENCHER\nmédia últimos 12 meses: A CALCULAR\nperspectivas: A PREENCHER
 END:VEVENT
 
 BEGIN:VEVENT
 UID:copom-rate-20260128@juros
 DTSTAMP:20260130T000000Z
-DTSTART:20260128T213000
-DTEND:20260128T220000
+DTSTART;VALUE=DATE:20260128
+DTEND;VALUE=DATE:20260129
 SUMMARY:🇧🇷 COPOM — Decisão da Selic (após fechamento)
-DESCRIPTION:DECISÃO (PASSADO)\nTaxa divulgada: 15,00% a.a.\nMédia 12m: A PREENCHER\nSurpresa vs esperado: dentro do esperado\nPerspectiva: sinalização de possível início de cortes em março (tom cauteloso).\n\nFonte (decisão): comunicado do Copom / cobertura de mercado.
-LAST-MODIFIED:20260130T000000Z
+DESCRIPTION:taxa divulgada: A PREENCHER\nexpectativa: A PREENCHER\nmédia últimos 12 meses: A CALCULAR\nperspectivas: A PREENCHER
 END:VEVENT
 
 BEGIN:VEVENT
 UID:fed-rate-20260318@juros
 DTSTAMP:20260130T000000Z
-DTSTART:20260318T190000Z
-DTEND:20260318T193000Z
-SUMMARY:🇺🇸 FED — Decisão de juros (14:00 ET)
-DESCRIPTION:DECISÃO (FUTURO)\nExpectativa do mercado: A PREENCHER\nSe não houver horário: antes/depois da abertura/fechamento — (não aplicável; horário geralmente fixo em 14:00 ET)\n\nDepois da decisão, atualizar com:\nTaxa divulgada:\nMédia 12m:\nSurpresa vs esperado:\nPerspectiva próxima:
+DTSTART:20260318T150000
+DTEND:20260318T153000
+SUMMARY:🇺🇸 FED — Decisão de juros (15:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: A PREENCHER\nmédia últimos 12 meses: A CALCULAR\nperspectivas: A PREENCHER
 END:VEVENT
 
 BEGIN:VEVENT
@@ -41,16 +39,16 @@ DTSTAMP:20260130T000000Z
 DTSTART;VALUE=DATE:20260318
 DTEND;VALUE=DATE:20260319
 SUMMARY:🇧🇷 COPOM — Decisão da Selic (após fechamento)
-DESCRIPTION:DECISÃO (FUTURO)\nHorário: após o fechamento do mercado (sem horário oficial fixo)\nExpectativa do mercado: A PREENCHER\n\nDepois da decisão, atualizar com:\nTaxa divulgada:\nMédia 12m:\nSurpresa vs esperado:\nPerspectiva próxima:
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: A PREENCHER\nmédia últimos 12 meses: A CALCULAR\nperspectivas: A PREENCHER
 END:VEVENT
 
 BEGIN:VEVENT
 UID:fed-rate-20260429@juros
 DTSTAMP:20260130T000000Z
-DTSTART:20260429T190000Z
-DTEND:20260429T193000Z
-SUMMARY:🇺🇸 FED — Decisão de juros (14:00 ET)
-DESCRIPTION:DECISÃO (FUTURO)\nExpectativa do mercado: A PREENCHER\n\nDepois da decisão, atualizar com:\nTaxa divulgada:\nMédia 12m:\nSurpresa vs esperado:\nPerspectiva próxima:
+DTSTART:20260429T150000
+DTEND:20260429T153000
+SUMMARY:🇺🇸 FED — Decisão de juros (15:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: A PREENCHER\nmédia últimos 12 meses: A CALCULAR\nperspectivas: A PREENCHER
 END:VEVENT
 
 BEGIN:VEVENT
@@ -59,16 +57,16 @@ DTSTAMP:20260130T000000Z
 DTSTART;VALUE=DATE:20260429
 DTEND;VALUE=DATE:20260430
 SUMMARY:🇧🇷 COPOM — Decisão da Selic (após fechamento)
-DESCRIPTION:DECISÃO (FUTURO)\nHorário: após o fechamento do mercado\nExpectativa do mercado: A PREENCHER\n\nDepois da decisão, atualizar com:\nTaxa divulgada:\nMédia 12m:\nSurpresa vs esperado:\nPerspectiva próxima:
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: A PREENCHER\nmédia últimos 12 meses: A CALCULAR\nperspectivas: A PREENCHER
 END:VEVENT
 
 BEGIN:VEVENT
 UID:fed-rate-20260617@juros
 DTSTAMP:20260130T000000Z
-DTSTART:20260617T190000Z
-DTEND:20260617T193000Z
-SUMMARY:🇺🇸 FED — Decisão de juros (14:00 ET)
-DESCRIPTION:DECISÃO (FUTURO)\nExpectativa do mercado: A PREENCHER\n\nDepois da decisão, atualizar com:\nTaxa divulgada:\nMédia 12m:\nSurpresa vs esperado:\nPerspectiva próxima:
+DTSTART:20260617T150000
+DTEND:20260617T153000
+SUMMARY:🇺🇸 FED — Decisão de juros (15:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: A PREENCHER\nmédia últimos 12 meses: A CALCULAR\nperspectivas: A PREENCHER
 END:VEVENT
 
 BEGIN:VEVENT
@@ -77,25 +75,16 @@ DTSTAMP:20260130T000000Z
 DTSTART;VALUE=DATE:20260617
 DTEND;VALUE=DATE:20260618
 SUMMARY:🇧🇷 COPOM — Decisão da Selic (após fechamento)
-DESCRIPTION:DECISÃO (FUTURO)\nHorário: após o fechamento do mercado\nExpectativa do mercado: A PREENCHER\n\nDepois da decisão, atualizar com:\nTaxa divulgada:\nMédia 12m:\nSurpresa vs esperado:\nPerspectiva próxima:
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: A PREENCHER\nmédia últimos 12 meses: A CALCULAR\nperspectivas: A PREENCHER
 END:VEVENT
 
 BEGIN:VEVENT
 UID:fed-rate-20260729@juros
 DTSTAMP:20260130T000000Z
-DTSTART:20260729T190000Z
-DTEND:20260729T193000Z
-SUMMARY:🇺🇸 FED — Decisão de juros (14:00 ET)
-DESCRIPTION:DECISÃO (FUTURO)\nExpectativa do mercado: A PREENCHER\n\nDepois da decisão, atualizar com:\nTaxa divulgada:\nMédia 12m:\nSurpresa vs esperado:\nPerspectiva próxima:
-END:VEVENT
-
-BEGIN:VEVENT
-UID:fed-rate-20260916@juros
-DTSTAMP:20260130T000000Z
-DTSTART:20260916T190000Z
-DTEND:20260916T193000Z
-SUMMARY:🇺🇸 FED — Decisão de juros (14:00 ET)
-DESCRIPTION:DECISÃO (FUTURO)\nExpectativa do mercado: A PREENCHER\n\nDepois da decisão, atualizar com:\nTaxa divulgada:\nMédia 12m:\nSurpresa vs esperado:\nPerspectiva próxima:
+DTSTART:20260729T150000
+DTEND:20260729T153000
+SUMMARY:🇺🇸 FED — Decisão de juros (15:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: A PREENCHER\nmédia últimos 12 meses: A CALCULAR\nperspectivas: A PREENCHER
 END:VEVENT
 
 BEGIN:VEVENT
@@ -104,16 +93,16 @@ DTSTAMP:20260130T000000Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
 SUMMARY:🇧🇷 COPOM — Decisão da Selic (após fechamento)
-DESCRIPTION:DECISÃO (FUTURO)\nHorário: após o fechamento do mercado\nExpectativa do mercado: A PREENCHER\n\nDepois da decisão, atualizar com:\nTaxa divulgada:\nMédia 12m:\nSurpresa vs esperado:\nPerspectiva próxima:
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: A PREENCHER\nmédia últimos 12 meses: A CALCULAR\nperspectivas: A PREENCHER
 END:VEVENT
 
 BEGIN:VEVENT
-UID:fed-rate-20261028@juros
+UID:fed-rate-20260916@juros
 DTSTAMP:20260130T000000Z
-DTSTART:20261028T190000Z
-DTEND:20261028T193000Z
-SUMMARY:🇺🇸 FED — Decisão de juros (14:00 ET)
-DESCRIPTION:DECISÃO (FUTURO)\nExpectativa do mercado: A PREENCHER\n\nDepois da decisão, atualizar com:\nTaxa divulgada:\nMédia 12m:\nSurpresa vs esperado:\nPerspectiva próxima:
+DTSTART:20260916T150000
+DTEND:20260916T153000
+SUMMARY:🇺🇸 FED — Decisão de juros (15:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: A PREENCHER\nmédia últimos 12 meses: A CALCULAR\nperspectivas: A PREENCHER
 END:VEVENT
 
 BEGIN:VEVENT
@@ -122,7 +111,16 @@ DTSTAMP:20260130T000000Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:🇧🇷 COPOM — Decisão da Selic (após fechamento)
-DESCRIPTION:DECISÃO (FUTURO)\nHorário: após o fechamento do mercado\nExpectativa do mercado: A PREENCHER\n\nDepois da decisão, atualizar com:\nTaxa divulgada:\nMédia 12m:\nSurpresa vs esperado:\nPerspectiva próxima:
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: A PREENCHER\nmédia últimos 12 meses: A CALCULAR\nperspectivas: A PREENCHER
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fed-rate-20261028@juros
+DTSTAMP:20260130T000000Z
+DTSTART:20261028T150000
+DTEND:20261028T153000
+SUMMARY:🇺🇸 FED — Decisão de juros (15:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: A PREENCHER\nmédia últimos 12 meses: A CALCULAR\nperspectivas: A PREENCHER
 END:VEVENT
 
 BEGIN:VEVENT
@@ -131,16 +129,16 @@ DTSTAMP:20260130T000000Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:🇧🇷 COPOM — Decisão da Selic (após fechamento)
-DESCRIPTION:DECISÃO (FUTURO)\nHorário: após o fechamento do mercado\nExpectativa do mercado: A PREENCHER\n\nDepois da decisão, atualizar com:\nTaxa divulgada:\nMédia 12m:\nSurpresa vs esperado:\nPerspectiva próxima:
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: A PREENCHER\nmédia últimos 12 meses: A CALCULAR\nperspectivas: A PREENCHER
 END:VEVENT
 
 BEGIN:VEVENT
 UID:fed-rate-20261209@juros
 DTSTAMP:20260130T000000Z
-DTSTART:20261209T200000Z
-DTEND:20261209T203000Z
-SUMMARY:🇺🇸 FED — Decisão de juros (14:00 ET)
-DESCRIPTION:DECISÃO (FUTURO)\nExpectativa do mercado: A PREENCHER\n\nDepois da decisão, atualizar com:\nTaxa divulgada:\nMédia 12m:\nSurpresa vs esperado:\nPerspectiva próxima:
+DTSTART:20261209T190000
+DTEND:20261209T193000
+SUMMARY:🇺🇸 FED — Decisão de juros (16:00 BRT)
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: A PREENCHER\nmédia últimos 12 meses: A CALCULAR\nperspectivas: A PREENCHER
 END:VEVENT
 
 BEGIN:VEVENT
@@ -149,7 +147,7 @@ DTSTAMP:20260130T000000Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:🇧🇷 COPOM — Decisão da Selic (após fechamento)
-DESCRIPTION:DECISÃO (FUTURO)\nHorário: após o fechamento do mercado\nExpectativa do mercado: A PREENCHER\n\nDepois da decisão, atualizar com:\nTaxa divulgada:\nMédia 12m:\nSurpresa vs esperado:\nPerspectiva próxima:
+DESCRIPTION:taxa divulgada: a divulgar\nexpectativa: A PREENCHER\nmédia últimos 12 meses: A CALCULAR\nperspectivas: A PREENCHER
 END:VEVENT
 
 END:VCALENDAR
