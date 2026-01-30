@@ -30,6 +30,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add taxas_de_juros.ics taxas_de_juros_v5.ics
+          git add taxas_de_juros.ics taxas_de_juros_v6.ics
           git commit -m "Atualiza taxas_de_juros.ics automaticamente" || exit 0
           git push
